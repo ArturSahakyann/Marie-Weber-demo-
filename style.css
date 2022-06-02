@@ -1,0 +1,349 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.loading {
+	width: 100px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 260px;
+	left: 580px;
+	animation-name: loading;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	opacity: 1;
+}
+
+.loading img {
+	width: 100px;
+	height: 100px;
+}
+
+header {
+	width: 100%;
+	height: 200px;
+	/*border: 1px solid red;*/
+	position: relative;
+	opacity: 0;
+	animation-name: header;
+	animation-duration: 3s;
+	animation-delay: 3s;
+	display: flex;
+	justify-content: space-between;
+	animation-fill-mode: forwards;
+}
+
+.marieWeber {
+	display: flex;
+	width: 15%;
+	height: 30px;
+	position: relative;
+	left: 40px;
+	/*border: 1px solid red;*/
+	animation-name: marie;
+	animation-duration: 2s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+.marieWeber h4 {
+	font-size: 20px;
+}
+
+.marieWeber img {
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+nav {
+	width: 34%;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	/*border: 1px solid black;*/
+	position: relative;
+	right: 50px;
+	animation-name: nav;
+	animation-duration: 2s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+nav .first {
+	/*border-bottom: 1px solid black;*/
+}
+
+nav .last {
+	opacity: 0.5;
+}
+
+nav span {
+	cursor: pointer;
+}
+
+.line {
+	width: 100%;
+	height: 30px;
+}
+
+main {
+	width: 100%;
+	height: 1700px;
+	/*border: 1px solid green;*/
+	animation-name: main;
+	position: relative;
+	top: 100px;
+	opacity: 0;
+	animation-duration: 2s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+/*	display: flex;
+	justify-content: space-between;*/
+}
+
+.collection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*justify-content: space-between;*/
+	width: 35%;
+	height: 50px;
+	/*border: 1px solid red;*/
+	position: relative;
+	animation-name: collection;
+	animation-duration: 2s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.collection img {
+	width: 50%;
+	height: 70px;
+	position: relative;
+	right: 40px;
+}
+
+.names {
+	width: 40%;
+	height: 1800px;
+	/*border: 1px solid red;*/
+}
+
+.pictures {
+	width: 40%;
+	height: 500px;
+	/*border: 1px solid red;*/
+}
+
+.info {
+	width: 100%;
+	height: 500px;
+	/*border: 1px solid red;*/
+}
+
+.raphaele {
+	width: 90%;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	/*border: 1px solid red;*/
+	animation-name: raphaele;
+	animation-duration: 2s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.raphaele span {
+	font-size: 70px;
+	position: relative;
+	left: 20px;
+	cursor: pointer;
+}
+
+.images {
+	width: 800px;
+	height: 470px;
+	/*border: 1px solid black;*/
+	margin-left: 10px;
+	display: none;
+	opacity: 0;
+	animation-name: images;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	position: relative;
+	left: 30px;
+}
+
+.firstImg {
+	width: 200px;
+	height: 240px;
+	position: absolute;
+}
+
+.secondImg {
+	width: 200px;
+	height: 250px;
+	position: relative;
+	top: 180px;
+	left: 190px;
+}
+
+.thirdImg {
+	width: 200px;
+	height: 250px;
+	position: relative;
+	left: 160px;
+}
+
+.raphaele:hover .images {
+	display: block;
+}
+
+.imagesTwo {
+	width: 800px;
+	height: 470px;
+	/*border: 1px solid black;*/
+	margin-left: 10px;
+	display: none;
+	opacity: 0;
+	animation-name: imagesTwo;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	position: relative;
+	top: 60px;
+	left: 70px;
+}
+
+.hannah:hover .imagesTwo {
+	display: block;
+}
+
+.hannah {
+	width: 90%;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	/*border: 1px solid red;*/
+	animation-name: raphaele;
+	animation-duration: 2s;
+	animation-delay: 4.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.hannah span {
+	font-size: 70px;
+	position: relative;
+	left: 20px;
+	cursor: pointer;
+}
+
+.bertrand {
+	width: 90%;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	/*border: 1px solid red;*/
+	animation-name: bertrand;
+	animation-duration: 2s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+.bertrand span {
+	font-size: 70px;
+	position: relative;
+	left: 20px;
+	cursor: pointer;
+}
+
+.imagesThree {
+	width: 800px;
+	height: 470px;
+	/*border: 1px solid black;*/
+	margin-left: 10px;
+	display: none;
+	opacity: 0;
+	animation-name: images;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	position: relative;
+	left: 30px;
+}
+
+.firstImg {
+	width: 200px;
+	height: 240px;
+	position: absolute;
+}
+
+.secondImg {
+	width: 200px;
+	height: 250px;
+	position: relative;
+	top: 210px;
+	left: 170px;
+}
+
+.thirdImg {
+	width: 200px;
+	height: 230px;
+	position: relative;
+	left: 140px;
+}
+
+.bertrand:hover .imagesThree {
+	display: block;
+}
+
+footer {
+	width: 100%;
+	height: 120px;
+	/*border: 1px solid green;*/
+	animation-name: main;
+	position: relative;
+	top: 100px;
+	opacity: 0;
+	animation-duration: 2s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	display: flex;
+	justify-content: space-between;
+}
+
+.firstText {
+	width: 15%;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.secondText {
+	width: 30%;
+	height: 120px;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation-name: secondText;
+	animation-duration: 2s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+	position: relative;
+	opacity: 0;
+	cursor: pointer;
+}

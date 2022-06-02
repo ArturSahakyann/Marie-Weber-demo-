@@ -1,0 +1,61 @@
+@keyframes loading {
+	0% {opacity: 1;}
+	50% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+
+@keyframes header {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes marie {
+	from {top: 200px; opacity: 0;}
+	to {top: 160px; opacity: 1;}
+}
+
+@keyframes nav {
+	from {top: 250px; opacity: 0; right: 60px;}
+	to {top: 160px; opacity: 1; right: 50px;}
+}
+
+@keyframes main {
+	from {top: 100px; opacity: 0;}
+	to {top: 0; opacity: 1;}
+}
+
+@keyframes collection {
+	from {left: -50px; opacity: 0;}
+	to {left: 0; opacity: 1;}
+}
+
+@keyframes raphaele {
+	from {left: -60px; opacity: 0;}
+	to {left: 0; opacity: 1;}
+}
+
+@keyframes images {
+	from {top: 70px; opacity: 0;}
+	to {top: 20px; opacity: 0.9;}
+}
+
+@keyframes hannah {
+	from {left: -60px; opacity: 0;}
+	to {left: 0; opacity: 1;}
+}
+
+@keyframes imagesTwo {
+	from {top: 70px; opacity: 0;}
+	to {top: 20px; opacity: 0.9;}
+}
+
+@keyframes bertrand {
+	from {left: -60px; opacity: 0;}
+	to {left: 0; opacity: 1;}
+}
+
+@keyframes secondText {
+	from {left: -40px; opacity: 0;}
+	to {left: 0; opacity: 1;}
+}
